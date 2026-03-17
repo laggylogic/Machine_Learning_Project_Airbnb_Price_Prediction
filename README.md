@@ -1,5 +1,7 @@
 # NYC Airbnb Price Prediction
 
+![Airbnb cover](./README-images/airbnb-cover.png)
+
 This project is a quick walkthrough of how I built a price prediction model for Airbnb listings in New York City using the publicly available NYC Airbnb dataset.
 
 I kept the notebook structured as steps, so it’s easier to see what happened at each stage: data loading, cleaning, feature engineering, encoding, and then model training + evaluation.
@@ -76,14 +78,10 @@ R2 (mean): **0.5356**
 
 I also printed per-fold values for MAE, RMSE, and R2 so you can see how stable the model is across splits.
 
-## Notes
-
-- If you want to improve the score, the next place to look is usually feature engineering and trying a few different models (or tuning Ridge `alpha`) before changing the whole pipeline.
-- The dataset comes from Kaggle (NYC Airbnb Open Data), so results can vary slightly depending on the exact preprocessing choices and splits.
 
 ## Future Work
 
-If you want to push the accuracy further, here are a few practical improvements you can try next:
+To push the accuracy further, here are some improvements I can try next:
 
 1. Tune the Ridge model more carefully
    Try different `alpha` values (and compare with plain Linear Regression or Elastic Net) using the same cross-validation setup.
