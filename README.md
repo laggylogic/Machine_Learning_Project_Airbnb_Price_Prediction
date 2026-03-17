@@ -11,12 +11,6 @@ I kept the notebook structured as steps, so it’s easier to see what happened a
 **Airbnb.ipynb**: step-by-step notebook (EDA, preprocessing, model, evaluation)
 **data/AB_NYC_2019.csv**: dataset used by the notebook
 
-## How to run
-
-1. Open **Airbnb.ipynb** in Cursor (or any Jupyter environment).
-2. Run the cells from top to bottom.
-
-The notebook expects the dataset at **data/AB_NYC_2019.csv** (relative to the project folder).
 
 ### Dependencies
 
